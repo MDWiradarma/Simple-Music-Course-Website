@@ -1,0 +1,306 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Poppins';
+    font-style: italic;
+    color: #ebdcb7;
+}
+
+.logo a span {
+    color: #3C2A21;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #B99B6B;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #3C2A21;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border: 2px solid;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#home {
+    padding-top: 30px;
+}
+
+#about {
+    padding-top: 50px;
+}
+
+#sponsor {
+    padding-top: 50px;
+}
+
+.column {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.column .words {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins'
+        color: #364f6b;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #3C2A21;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.sponsor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor-name {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.sponsor-name img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.sponsor-name p {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #3C2A21;
+    width: 100%;
+    line-height: 50px;
+    text-align: ;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #b69b68;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    margin-top: 50px;
+    color: #3C2A21;
+
+}
+
+#contact { 
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: #b69b68;
+    padding-top: 50px;
+}
+
+#contact h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.kontak {
+    padding: 50px;
+}
+
+.bagian-kontak {
+    text-align: center;
+}
+
+.bagian-kontak h3{
+    margin: 0;
+}
+
+
+.bagian-kontak p {
+    font-size: 18px;
+}
+
+.aside {
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+#aside-content { 
+    margin-top: 50px;
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: #b69b68;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#aside-content h2 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#aside-content p {
+    text-align: center;
+    padding: 0;
+}
+
+.biodata {
+    text-align: center;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.biodata .bagian-biodata h3 {
+    margin: 0px;
+}
+
+@media screen and (max-width: 999.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .sponsor-name {
+        width: 50%;
+    }
+
+    .sponsor-name img {
+        margin-left: 30px;
+    }
+    .sponsor-list {
+        text-align: center;
+    }
+}
