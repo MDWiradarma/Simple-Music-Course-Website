@@ -97,8 +97,8 @@ section {
 .column .words {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Poppins'
-        color: #364f6b;
+    font-family: 'Poppins';
+    color: #364f6b;
 }
 
 h2 {
@@ -171,7 +171,6 @@ h3 {
     color: #3C2A21;
     width: 100%;
     line-height: 50px;
-    text-align: ;
 }
 
 .copyright {
@@ -184,7 +183,7 @@ h3 {
 
 }
 
-#contact { 
+#contact {
     border: 1px solid;
     border-radius: 50px;
     background-color: #b69b68;
@@ -204,7 +203,7 @@ h3 {
     text-align: center;
 }
 
-.bagian-kontak h3{
+.bagian-kontak h3 {
     margin: 0;
 }
 
@@ -219,7 +218,7 @@ h3 {
     position: relative;
 }
 
-#aside-content { 
+#aside-content {
     margin-top: 50px;
     border: 1px solid;
     border-radius: 50px;
@@ -300,6 +299,7 @@ h3 {
     .sponsor-name img {
         margin-left: 30px;
     }
+
     .sponsor-list {
         text-align: center;
     }
